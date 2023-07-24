@@ -6,11 +6,11 @@ package base64x
 //go:nosplit
 //go:noescape
 //goland:noinspection ALL
-func __native_arm_entry__() uintptr
+func __native_entry__() uintptr
 
 var (
-    _subr__b64decode uintptr = __native_arm_entry__() + 1064
-    _subr__b64encode uintptr = __native_arm_entry__() + 96
+    _subr__b64decode uintptr = __native_entry__() + 1064
+    _subr__b64encode uintptr = __native_entry__() + 96
 )
 
 const (
